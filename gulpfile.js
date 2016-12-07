@@ -2,7 +2,8 @@
 process.env.DEBUG = process.env.DEBUG || 'fcc:*';
 
 require('babel-core/register');
-var Rx = require('rx'),
+var bg = require('gulp-bg'),
+  Rx = require('rx'),
   gulp = require('gulp'),
   path = require('path'),
   debug = require('debug')('fcc:gulp'),
@@ -48,14 +49,16 @@ var Rx = require('rx'),
   tape = require('gulp-tape'),
   tapSpec = require('tap-spec');
 
+  //
+
 Rx.config.longStackSupport = true;
 var sync = browserSync.create('fcc-sync-server');
 var reload = sync.reload.bind(sync);
 
 // user definable
 var __DEV__ = !yargs.argv.p;
-var port = yargs.argv.port || process.env.PORT || '3001';
-var syncPort = yargs.argv['sync-port'] || process.env.SYNC_PORT || '3000';
+var port = yargs.argv.port || process.env.PORT || '81';
+var syncPort = yargs.argv['sync-port'] || process.env.SYNC_PORT || '80';
 // make sure sync ui port does not interfere with proxy port
 var syncUIPort = yargs.argv['sync-ui-port'] ||
   process.env.SYNC_UI_PORT ||

@@ -33,7 +33,7 @@ var isBeta = !!process.env.BETA;
 
 expressState.extend(app);
 app.set('state namespace', '__fcc__');
-app.set('port', process.env.PORT || 3000);
+app.set('port', /*process.env.PORT ||*/ 8081);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 app.use(loopback.token());
