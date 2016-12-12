@@ -26,8 +26,8 @@ module.exports = function(app) {
   router.get('/unsubscribed', unsubscribed);
   router.get('/nonprofits', nonprofits);
   router.get('/nonprofits-form', nonprofitsForm);
-  router.get('/pmi-acp-agile-project-managers', agileProjectManagers);
-  router.get('/pmi-acp-agile-project-managers-form', agileProjectManagersForm);
+  //router.get('/pmi-acp-agile-project-managers', agileProjectManagers);
+  //router.get('/pmi-acp-agile-project-managers-form', agileProjectManagersForm);
   router.get('/coding-bootcamp-cost-calculator', bootcampCalculator);
   router.get('/stories', showTestimonials);
   router.get('/shop', showShop);
