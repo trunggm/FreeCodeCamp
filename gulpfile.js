@@ -57,8 +57,8 @@ var reload = sync.reload.bind(sync);
 
 // user definable
 var __DEV__ = !yargs.argv.p;
-var port = yargs.argv.port || process.env.PORT || '82';
-var syncPort = yargs.argv['sync-port'] || process.env.SYNC_PORT || '80';
+var port = yargs.argv.port || process.env.PORT || '8082';
+var syncPort = yargs.argv['sync-port'] || process.env.SYNC_PORT || '8080';
 // make sure sync ui port does not interfere with proxy port
 var syncUIPort = yargs.argv['sync-ui-port'] ||
   process.env.SYNC_UI_PORT ||

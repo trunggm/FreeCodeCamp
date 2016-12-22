@@ -1,12 +1,12 @@
 {
-  "name": "Join the Free Code Camp Community",
+  "name": "Tham gia cộng đồng Free Code School",
   "order": 1,
   "time": "15 minutes",
   "helpRoom": "Help",
   "challenges": [
     {
       "id": "560add10cb82ac38a17513be",
-      "title": "Learn how Free Code Camp Works",
+      "title": "Learn How to Free Code School Work",
       "description": [
         [
           "//i.imgur.com/6ibIavQ.jpg",
@@ -86,6 +86,160 @@
       "type": "Waypoint",
       "challengeType": 7,
       "translations": {
+        "vi": {
+          "title": "Free Code School làm việc như thế nào?",
+          "description": [
+            [
+              "//i.imgur.com/6ibIavQ.jpg",
+              "Một bức ảnh về 4 lợi ích từ Free Code School: Nhận kết nối, Học JavaScript, Xây dựng danh mục đầu tư của bạn, Giúp đỡ cộng đồng phi lợi nhuận",
+              "Chào mừng bạn tới Free Code School. Chúng tôi là một cộng đồng mã nguồn mở giúp bạn học cách lập trình, sau đó bạn sẽ luyện tập xây dựng các dự án phi lợi nhuận.",
+              ""
+            ],
+            [
+              "//i.imgur.com/Elb3dfj.jpg",
+              "Một bức ảnh chụp màn hình của một số học viên của chúng tôi tại Gamuda.",
+              "<bold>Learning to code is hard.</bold> Để thành công, bạn sẽ cần rất luyện tập và hỗ trợ rất nhiều. Vì vậy chúng tôi đã tạo ra một chương trình giảng dạy nghiêm ngặt và một cộng đồng hỗ trợ.",
+              ""
+            ],
+            [
+              "//i.imgur.com/WD3STY6.jpg",
+              "Bức ảnh của ba học viên đã nhận được công việc sau khi hoàn thành khóa học tại Free Code School.",
+              "Free Code School là con đường đi tới công việc lập trình viên đầu tiên của bạn. Chúng tôi đã giúp đỡ hàng nghìn người giống bạn, những người đã học lập trình tại Free Code School.",
+              ""
+            ],
+            [
+              "//i.imgur.com/D7Y5luw.jpg",
+              "Đây là biểu đồ đáng giá sự tăng trưởng của lượng công việc trong ngành khoa học máy tính và lượng sinh viên tốt nghiệp khoa học máy tính. Có tới 1,4 triệu công việc nhưng chỉ có 400 nghìn người tốt nghiệp mỗi năm.",
+              "Hàng nghìn vị trí lập trình bị thiếu, và nhu cầu lập trình viên tăng dần mỗi năm.",
+              ""
+            ],
+            [
+              "//i.imgur.com/vLNso6h.jpg",
+              "An illustration showing that you will learn HTML5, CSS3, JavaScript, Databases, Git, Node.js, React and D3.",
+              "Chúng tôi có hàng trăm thử thách khác nhau để dạy bạn kỹ thuật lập trình web cơ sở giống như HTML5, Node.js và cơ sở dữ liệu.",
+              ""
+            ],
+            [
+              "//i.imgur.com/UVB9hxp.jpg",
+              "An image of a camper at a cafe building projects on Free Code School.",
+              "Chúng tôi tin rằng cách học tốt nhất là thực hành. Vì vậy bạn hãy dành hầu hết thời gian của bạn để xây dựng các dự án thực sự. Chúng tôi sẽ đưa cho bạn một danh sách cụ thể (câu chuyện của các học viên), và bạn sẽ tìm ra cách xây dụng ứng dụng đáp ứng những yêu cầu đó.",
+              ""
+            ],
+            [
+              "//i.imgur.com/pbW7K5S.jpg",
+              "An image of showing our front end, back end, and data visualization certifications (400 hours each), our nonprofit projects (800 hours), and interview prep (80 hours) for a total of 2,080 hours of coding experience.",
+              "Chương trình học của chúng tôi được chia thành 4 chứng chỉ. Những chứng chỉ này được chuẩn hóa và có thể được kiểm chứng ngay lập tức bởi các khách hàng tự do và các lập trình viên trong tương lại. Giống như những thứ khác tại Free Code School, những chứng chỉ này là miễn phí. Chúng tôi khuyên bạn làm việc này theo thứ tự, nhưng bạn có thể tự do di chuyển công việc. Ba chứng chỉ đầu tiên cần 400 giờ để hoàn thành, và chứng chỉ cuối cùng cần 800 giờ, và chúng có liên hệ tới việc xây dựng những dự án thực tế cho mục đíc phi lợi nhuận.",
+              ""
+            ],
+            [
+              "//i.imgur.com/akGfLoa.jpg",
+              "A screenshot of our Front End Development Certificate",
+              "Để nhận được chứng chỉ Front End Development, bạn sẽ phải xây dựng 10 dự án sử dụng HTML, CSS, jQuery, và JavaScript.",
+              ""
+            ],
+            [
+              "//i.imgur.com/ocEL0D3.jpg",
+              "A screenshot of our Data Visualization Certificate",
+              "Để nhận được chứng chỉ Data Visualization, bạn sẽ phải xây dựng 10 dự án React, Sass và D3.js.",
+              ""
+            ],
+            [
+              "//i.imgur.com/8HCk1Od.jpg",
+              "A screenshot of our Back End Development Certificate",
+              "Để nhận được chứng chỉ Back End Development, bạn sẽ phải xây dựng 10 dự án sử dụng Node.js, Express, và MongoDB. Bạn sẽ sử dụng Git và Heroku để deploy chúng tới cloud.",
+              ""
+            ],
+            [
+              "//i.imgur.com/yXyxbDd.jpg",
+              "A screen shot of our nonprofit project directory.",
+              "Sau khi hoàn thành 3 chứng chỉ trên, bạn sẽ hợp tác với các học viên khác để sử dụng phương pháp phát triển phần mêm agile để xây dựng 2 dự án thực tế cho mục đích phi lợi nhuận. Bạn cũng sẽ thêm chức ngăn cho 2 dự án phi lợi nhuận \"legacy code\". Cuối cùng, bạn sẽ có một danh mục của các ứng dụng thật mà mọi người sẽ sử dụng mỗi ngày.",
+              ""
+            ],
+            [
+              "//i.imgur.com/PDGQ9ZM.jpg",
+              "An image of campers building projects together in a cafe in Seoul.",
+              "Nếu bạn hoàn thành tất cả 2,080 giờ của thử thác và dự án, bạn sẽ nhận được chứng chỉ Full Stack Development của chúng tôi. Chúng tôi sẽ cung cấp cho bạn những bài luyện tập phỏng vấn lập trình tự do. Chúng tôi cũng cung cấp một bảng việc làm cụ thể để gợi ý cho các học viên, những người đã nhận được chứng chỉ từ Free Code School.",
+              ""
+            ]
+          ],
+        },
+        "en": {
+          "title": "Learn How to Free Code School Work",
+          "description": [
+            [
+              "//i.imgur.com/6ibIavQ.jpg",
+              "A picture of Free Code Camp's 4 benefits: Get connected, Learn JavaScript, Build your Portfolio, Help nonprofits",
+              "Welcome to Free Code Camp. We're an open source community that helps you learn to code, then practice by building projects for nonprofits.",
+              ""
+            ],
+            [
+              "//i.imgur.com/Elb3dfj.jpg",
+              "A screenshot of some of our campers coding together in Toronto.",
+              "<bold>Learning to code is hard.</bold> To succeed, you'll need lots of practice and support. That's why we've created a rigorous curriculum and supportive community.",
+              ""
+            ],
+            [
+              "//i.imgur.com/WD3STY6.jpg",
+              "Photos of three campers who got jobs after learning to code at Free Code Camp.",
+              "Free Code Camp is a proven path to your first software developer job. Companies have hired thousands of people like you who have learned to code through Free Code Camp.",
+              ""
+            ],
+            [
+              "//i.imgur.com/D7Y5luw.jpg",
+              "A graph of the rate of job growth against growth in computer science degree graduates. There are 1.4 million jobs and only 400 thousand people to fill them.",
+              "There are thousands of software developer jobs currently going unfilled, and the demand for coders grows every year.",
+              ""
+            ],
+            [
+              "//i.imgur.com/vLNso6h.jpg",
+              "An illustration showing that you will learn HTML5, CSS3, JavaScript, Databases, Git, Node.js, React and D3.",
+              "We have hundreds of optional coding challenges that will teach you fundamental web development technologies like HTML5, Node.js and databases.",
+              ""
+            ],
+            [
+              "//i.imgur.com/UVB9hxp.jpg",
+              "An image of a camper at a cafe building projects on Free Code Camp.",
+              "We believe humans learn best by doing. So you'll spend most of your time actually building projects. We'll give you a list of specifications (agile user stories), and you'll figure out how to build apps that fulfill those specifications.",
+              ""
+            ],
+            [
+              "//i.imgur.com/pbW7K5S.jpg",
+              "An image of showing our front end, back end, and data visualization certifications (400 hours each), our nonprofit projects (800 hours), and interview prep (80 hours) for a total of 2,080 hours of coding experience.",
+              "Our curriculum is divided into 4 certifications. These certifications are standardized, and instantly verifiable by your freelance clients and future employers. Like everything else at Free Code Camp, these certifications are free. We recommend doing them in order, but you are free to jump around. The first three certifications take 400 hours each, and the final certification takes 800 hours, and involves building real-life projects for nonprofits.",
+              ""
+            ],
+            [
+              "//i.imgur.com/akGfLoa.jpg",
+              "A screenshot of our Front End Development Certificate",
+              "To earn our verified Front End Development Certification, you'll build 10 projects using HTML, CSS, jQuery, and JavaScript.",
+              ""
+            ],
+            [
+              "//i.imgur.com/ocEL0D3.jpg",
+              "A screenshot of our Data Visualization Certificate",
+              "To earn our Data Visualization Certification, you'll build 10 projects using React, Sass and D3.js.",
+              ""
+            ],
+            [
+              "//i.imgur.com/8HCk1Od.jpg",
+              "A screenshot of our Back End Development Certificate",
+              "To earn our Back End Development Certification, you'll build 10 projects using Node.js, Express, and MongoDB. You'll use Git and Heroku to deploy them to the cloud.",
+              ""
+            ],
+            [
+              "//i.imgur.com/yXyxbDd.jpg",
+              "A screen shot of our nonprofit project directory.",
+              "After you complete all three of these certificates, you'll team up with another camper and use agile software development methodologies to build two real-life projects for nonprofits. You'll also add functionality to two legacy code nonprofit projects. By the time you finish, you'll have a portfolio of real apps that people use every day.",
+              ""
+            ],
+            [
+              "//i.imgur.com/PDGQ9ZM.jpg",
+              "An image of campers building projects together in a cafe in Seoul.",
+              "If you complete all 2,080 hours worth of challenges and projects, you'll earn our Full Stack Development Certification. We'll offer you free coding interview practice. We even offer a job board where employers specifically hire campers who've earned Free Code Camp certifications.",
+              ""
+            ]
+          ]
+        },
         "de": {
           "title": "Lerne wie Free Code Camp funktioniert",
           "description": [
