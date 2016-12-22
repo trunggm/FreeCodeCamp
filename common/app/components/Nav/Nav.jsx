@@ -116,8 +116,8 @@ export default class FCCNav extends React.Component {
   }
 
   renderChat(toggleMainChat) {
-    return (
-      <NavItem
+    return (<NavItem></NavItem>);
+      /*<NavItem
         eventKey={ 2 }
         href='//gitter.im/freecodecamp/freecodecamp'
         onClick={ e => {
@@ -129,10 +129,9 @@ export default class FCCNav extends React.Component {
         target='_blank'
         >
         Chat
-      </NavItem>
-    );
+      </NavItem>*/
+    
   }
-
   renderLinks() {
     return navLinks.map(({ content, link, react, target }, index) => {
       if (react) {

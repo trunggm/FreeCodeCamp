@@ -35,7 +35,7 @@ export default function about(app) {
   const allThreeCount$ = getAllThreeCertsCount(userCount);
 
   function showAbout(req, res, next) {
-    const daysRunning = moment().diff(new Date('10/15/2014'), 'days');
+    const daysRunning = moment().diff(new Date('12/1/2016'), 'days');
 
     Observable.combineLatest(
       frontEndCount$,
