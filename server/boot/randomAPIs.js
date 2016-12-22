@@ -31,6 +31,7 @@ module.exports = function(app) {
   router.get('/coding-bootcamp-cost-calculator', bootcampCalculator);
   router.get('/stories', showTestimonials);
   router.get('/shop', showShop);
+  router.get('/helpus', showHelpus);
   router.get('/all-stories', showAllTestimonials);
   router.get('/terms', terms);
   router.get('/privacy', privacy);
@@ -111,8 +112,13 @@ module.exports = function(app) {
 
   function showShop(req, res) {
     res.render('resources/shop', {
-      title: 'Support Free Code Camp by Buying t-shirts, ' +
-        'stickers, and other goodies'
+      title: 'Hỗ trợ Free Code School bằng cách mua hàng ở shop chúng tôi'
+    });
+  }
+
+  function showHelpus(req, res) {
+    res.render('resources/helpus', {
+      title: 'Giúp đỡ chúng tôi'
     });
   }
 
