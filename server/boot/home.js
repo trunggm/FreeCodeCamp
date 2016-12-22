@@ -3,7 +3,7 @@ import supportedLanguages from '../../common/utils/supported-languages';
 import dedent from 'dedent';
 
 const message =
-  'Learn to Code and Help Nonprofits';
+  'Học lập trình và Kiếm việc lương cao ngay';
 
 module.exports = function(app) {
   var router = app.loopback.Router();
